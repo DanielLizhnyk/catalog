@@ -1,0 +1,48 @@
+* {
+margin:0;
+padding:0;
+}
+#nav {
+list-style:none;
+height:2em;
+}
+#nav li {
+position:relative;
+float:left;
+width:192px;
+background:#999;
+text-align:center;
+}
+#nav li:hover {
+background:#777;
+}
+#nav a {
+display:block;
+color:#000;
+text-decoration:none;
+line-height:2em;
+}
+/* --------- Drop Down -------- */
+#nav ul {
+position:absolute;
+left:-999em;
+top:2em;
+list-style:none;
+}
+#nav li:hover ul {
+left:0;
+top:auto;
+}
+
+.button {
+    border: 1px solid #333; /* Рамка */
+    display: inline-block;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+  }
+   .button:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+    color: #a00;
+   }
